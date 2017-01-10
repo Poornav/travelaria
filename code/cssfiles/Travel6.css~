@@ -1,0 +1,188 @@
+body
+{
+	//background-color:black;
+	background-image:url(../photos/pic.jpg);
+	//z-index:-1;
+
+}
+
+
+header p
+{
+	//font-family:cursive,Verdana,sans-serif
+	//font-size:30px
+	//font-color:#00FFFF
+	font-color:#00FFFF;
+	font-size:55px;
+	text-indent:2%;
+	font-family: cursive,arial,verdana,sans-serif,"Times New Roman";
+	font-weight:bold;
+	margin-top:0px;
+	
+}
+header
+{
+	background:#505050;	
+	//border:solid;
+	height:10%;
+	clear:left;
+	//position:fixed;
+	position:relative;
+	left:0
+	top:-1%;
+	//z-index:1;
+	margin-left:-0.8%;
+	margin-top:0.8%;
+	width:101.6%;
+
+
+
+
+
+
+}
+#navigation
+{
+	float: left;
+	width: 101.6%;
+	background:#000000;
+	font-family:cursive,sans-serif,"Times New Roman";
+	font-size:20px;
+	margin-top:0px;
+	margin-left:-0.8%;
+
+
+}
+
+#navigation ul
+{
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	//display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	//border-right: 1px solid#fff;
+	border-radius:4px
+}
+
+#navigation li a:hover { background:#1E90FF; }
+
+#navigation ul li:hover ul
+{
+	display:block;
+}
+
+#container
+{
+	float:left;
+	width:100%;
+	//border:solid;
+	height:82%;
+	//background:#eee;
+	margin-top:1%;
+}
+#content-container
+{
+	float:left;
+	//border:solid;
+	width:65%;
+	height:50%;
+	display:inline;
+	margin-top:1%;
+	margin-left:1%;
+	//background:#4B0082;
+	//opacity:0.6;
+	//filter:alpha(opacity=60);
+
+	
+		
+}
+#topcountries
+{
+	float:right;
+	//border:solid;
+	position:relative;
+	margin-top:-1%;
+	margin-left:2%;
+	margin-right:-0.8%;
+	width:30%;
+	height:100%;
+	display:inline;
+	background:#D8D8D8;
+	text-decoration:none;
+	//opacity: 0.6;
+    	//filter: alpha(opacity=60);
+	
+	
+}
+#topcountries a
+{
+	text-decoration:none;
+}
+#banner
+{
+	//position:relative;
+	//top:-40%;
+	//left:32%;
+	float:left;
+	width:65%;
+	height:40%;
+	margin-top:1%;
+	margin-left:1%;
+	//border:solid;
+	//background:#FF0000;
+	//display:block;
+	
+}
+#footer
+{
+	//margin-top:1%;
+	//margin-left:3%;
+	clear:left;
+	background:#505050;
+	//position:static;
+	position:relative;
+	top:-2	%;
+	margin-top:2%;
+	margin-left:-0.9%;
+	margin-right:1%;	
+	width:101.6%;
+	height:4%;
+	//border:solid;
+		
+}
+#see
+{
+	list-style-type: none;
+	font-family:sans-serif,"Times New Roman";
+	text-decoration: none;
+	
+}
+
+
+
+
+#asd
+{
+	//height:-10%
+	margin-left:0px;	
+	background:#505050
+	width:100%;
+}
+#top
+{
+	background-color:#505050;
+	z-index:1;
+}

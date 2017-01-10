@@ -1,0 +1,222 @@
+45142 Albania
+45096 Algeria
+44983 American Samoa
+45113 Andorra
+45038 Angola
+45149 Anguilla
+44976 Antigua and Barbuda
+45048 Argentina
+45092 Armenia
+45160 Aruba
+45034 Australia
+45057 Austria
+44955 Azerbaijan
+45013 Bahamas
+44993 Bahrain
+45028 Bangladesh
+44959 Barbados
+44966 Belarus
+45121 Belgium
+45093 Belize
+45161 Benin
+44969 Bermuda
+44985 Bhutan
+45009 Bolivia
+45055 Bonaire
+45022 Bosnia and Herzegovina
+45065 Botswana
+45081 Brazil
+45006 British Virgin Islands
+45152 Brunei
+44992 Bulgaria
+44975 Burkina Faso
+44958 Burundi
+45041 Cambodia
+45102 Cameroon
+45046 Canada
+45111 Cape Verde
+45014 Cayman Islands
+44990 Central African Republic
+45155 Chad
+45135 Chile
+44989 China
+44970 Colombia
+45137 Comoros
+45084 Congo (Democratic Republic Of)
+45090 Cook Islands
+45017 Costa Rica
+45100 Croatia
+45078 Cuba
+44973 Cura&ccedil;ao
+45032 Cyprus
+45040 Czech Republic
+44957 Denmark
+45039 Djibouti
+44982 Dominica (Commonwealth of)
+45157 Dominican Republic
+45001 East Timor
+45005 Ecuador
+45143 Egypt
+44960 El Salvador
+44979 Equatorial Guinea
+45120 Eritrea
+45016 Estonia
+45141 Ethiopia
+45076 Falkland Islands
+45109 Fiji
+45067 Finland
+44974 France
+45104 French Guiana
+44981 Gabon
+45003 Gambia
+45043 Georgia
+45125 Germany
+44948 Ghana
+45130 Gibraltar
+45026 Gran Canaria
+45108 Greece
+44952 Greenland
+45068 Grenada
+44971 Guadeloupe
+44988 Guam
+45031 Guatemala
+45066 Guinea
+45002 Guinea-Bissau
+45136 Guyana
+45126 Haiti
+45133 Honduras
+45010 Hong Kong
+45114 Hungary
+44994 Iceland
+44972 India
+44996 Indonesia
+45070 Iran (Islamic Republic Of)
+45156 Iraq
+45148 Ireland
+44965 Israel
+45018 Italy
+44961 Ivory Coast
+45140 Jamaica
+45004 Japan
+45015 Jordan
+45037 Kazakhstan
+45118 Kenya
+45050 Kiribati
+44939 Kosovo
+44950 Kuwait
+45045 Kyrgyzstan
+45073 Lanzarote
+45099 Laos
+45029 Latvia
+45094 Lebanon
+45123 Lesotho
+44967 Liberia
+45091 Libya
+45033 Liechtenstein
+44949 Lithuania
+45106 Luxembourg
+45158 Macau
+44954 Macedonia, Former Yugoslav Republic of
+45115 Madagascar
+45024 Malawi
+45079 Malaysia
+45049 Maldives
+44944 Mali
+44991 Malta
+44964 Martinique
+45145 Mauritania
+45069 Mauritius
+45063 Mexico
+45064 Moldova
+45071 Monaco
+45080 Mongolia
+45112 Montenegro
+45122 Montserrat
+45103 Morocco
+44951 Mozambique
+45129 Myanmar
+45047 Namibia
+45075 Nauru
+44947 Nepal
+45058 Netherlands
+45089 New Caledonia
+44984 New Zealand
+45098 Nicaragua
+44986 Niger
+45056 Nigeria
+45025 Niue
+45088 North Korea
+45154 Norway
+45030 Oman
+45087 Pakistan
+45052 Palestinian National Authority
+45082 Panama
+45036 Papua New Guinea
+45086 Paraguay
+44968 Peru
+44956 Philippines
+45035 Poland
+44962 Portugal
+44999 Puerto Rico
+45110 Qatar
+45128 Republic of Congo
+45023 Reunion
+45012 Romania
+45059 Russian Federation
+44945 Rwanda
+45117 S&atilde;o Tom&eacute; e Pr&iacute;ncipe
+45077 Saba
+45151 Samoa
+44946 San Marino
+45027 Saudi Arabia
+45097 Senegal
+45042 Serbia
+45159 Seychelles
+45007 Sierra Leone
+45044 Singapore
+45132 Slovakia
+45139 Slovenia
+45150 Solomon Islands
+45000 Somalia
+45127 South Africa
+44997 South Korea
+45116 Spain
+44995 Sri Lanka
+45105 St Eustatius
+45095 St Kitts And Nevis
+45119 St Lucia
+44953 St Maarten
+45131 St Vincent and the Grenadines
+45144 Sudan
+44940 Surinam
+45053 Swaziland
+45101 Sweden
+45138 Switzerland
+45061 Syrian Arab Republic
+45147 Tahiti and her Islands
+45083 Taiwan
+44977 Tajikistan
+45021 Tanzania
+44942 Tenerife
+45134 Thailand
+45019 Togo
+45051 Tonga
+45011 Trinidad and Tobago
+45146 Tunisia
+45072 Turkey
+44963 Turkmenistan
+45054 Turks and Caicos Islands
+44998 Tuvalu
+45085 Uganda
+44943 Ukraine
+44980 United Arab Emirates
+45107 United Kingdom
+44987 United States of America
+45020 Uruguay
+45153 Uzbekistan
+45074 Vanuatu
+44941 Venezuela
+45062 Vietnam
+45060 Yemen
+45124 Zambia
+45008 Zimbabwe

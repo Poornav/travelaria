@@ -1,0 +1,83 @@
+header{
+	
+
+	color:#00FFFF;
+	font-size:50px;
+	text-indent:2em;
+	font-family: cursive,arial,verdana,sans-serif;
+	font-weight:bold;
+	margin-top:0px;
+}
+body{
+	margin-top:0px;
+	background-color:#FFFF00;
+	font-family:arial,courier,sans-serif;
+}
+.one{
+
+	display:inline;
+	font-size:11px;
+	text-indent:9em;
+	font-family:arial,verdana,sans-serif;
+	position:relative;
+	left:40em;
+	color:hsl(233,50%,50%);
+
+}
+.searchforn{
+
+	border-radius:4px;
+	color:#ffffff;
+	font-family:cursive;
+}
+.searchbutton{
+
+	background-color:#00FFFF;
+	border-radius:4px;
+	width:60px;
+	color:#FFFAF0;
+}
+#navigation {
+border-top:1px solid #d6d6d6;
+border-bottom:1px solid #d6d6d6;
+padding:10px 0px 10px 0px;
+margin:20px 0px 20px 0px;
+}
+#navigation a {
+color:#3399cc;
+text-decoration:none;
+margin-right:20px;
+}
+#first{
+
+	position:relative;
+	top:80px;
+	left:0px;
+	width:500px;
+	/*height:300px;*/
+	padding:10px
+}
+#second{
+	position:absolute;
+	top:200px;
+	left:800px;
+
+
+	display:inline;
+	align:right;
+}
+.A{
+
+	list-style-image: url("k.jpg")
+}
+.B{
+
+	list-style-image: url("m.jpg")
+}
+.C{
+
+	list-style-image: url("r.jpg")
+}
+#states a{
+	text-decoration: none;
+}

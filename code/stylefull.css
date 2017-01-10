@@ -1,0 +1,41 @@
+#bg-menu {
+	background-color:#000000;
+	color:white;
+	position:relative;
+   top: 0;
+   bottom: 90%;
+   width:101.5%;
+   margin-left:-0.9%;
+   margin-top:0;
+   left: 0;
+   right: 0;
+   font-size:200%;
+   text-indent:0.25em;
+}
+
+#content {
+	background-color:#666666;
+	color:white;
+	position: relative;
+   top: 0%;
+   left: 0;
+   right: 0;
+   width:101.5%;
+   margin-left:-0.9%;
+	font-size:50%;
+	//overflow-x:scroll;
+	//overflow-y:scroll;
+	//border:solid;
+	text-indent:0.25em;
+}
+#links
+{
+	background:black;
+	position:fixed;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	top:90%;
+	overflow-y:hidden;
+	text-indent:7em;
+}

@@ -1,0 +1,71 @@
+<?php
+session_start();
+?>
+<html>
+<body>
+<?php
+$con=mysqli_connect("localhost","root","root","Travel");
+if(mysqli_connect_errno()) {
+	echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+echo "<h2>Local Customs</h2>";
+$a=$_SESSION["city"];
+$result = mysqli_query($con,"SELECT customs FROM LCustoms WHERE place='$a'");
+if($row = mysqli_fetch_array($result))	{
+	$info=$row['customs'];
+	$arr=split("!@#[$][%]",$info);
+	$count=count($arr)-1;
+	 echo "<div style='width:1130px;height:1300px;border:solid; overflow-y:hidden;display:inline-block; float:left;'>";
+	for($i=0;$i<$count;$i++) {
+	  
+		echo "<div style='width:375px;height:300px;border:solid; overflow-y:hidden;float:left;'>".$arr[$i]."</div>";
+	}
+	echo "</div>";
+	mysqli_close($con);
+}
+else {
+	$sql="select id from VirtualTourist where city='$a'";
+	$result=mysqli_query($con,$sql);
+	while($row = mysqli_fetch_array($result)) {
+	  $l=$row['id'];
+	}
+	
+	$command = escapeshellcmd('java -cp .:jsoup-1.8.1.jar web14_localcustoms '.$l.' '.$a);
+	$output = shell_exec($command);
+	$count=mysqli_query($con,"SELECT count(id),min(id) FROM LCustoms"); 
+	if($row=mysqli_fetch_array($count)) {
+		if($row['count(id)']==3) {
+			$sql="DELETE from LCustoms WHERE id=".$row['min(id)'];
+			$result=mysqli_query($con,$sql);
+		}
+	}
+	$output=str_replace("\"","\\\"",$output);
+	$sql="INSERT INTO LCustoms(place,customs) VALUES(\"$a\",\"$output\")";
+	$t=mysqli_query($con,$sql);
+	mysqli_close($con);	
+	$output=str_replace("\\\"","\"",$output);
+	$info=$output;
+	$arr=split("!@#[$][%]",$info);
+	print_r($arr);
+}
+
+?>
+<br><br>
+<a href="weather.php">Weather</a>
+<br>
+<a href="scam.php">Scams</a>
+<br>
+<a href="best.php">Best time to go</a>
+<br>
+<a href="place.php">Places to visit</a>
+<br>
+<a href="rest.php">Resaraunts</a>
+<br>
+<a href="hotel.php">Hotels</a>
+<br>
+<a href="transport.php">Local Transport</a>
+<br>
+<a href="Travel.php">Home</a>
+</body>
+
+</html>

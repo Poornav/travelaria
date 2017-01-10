@@ -1,0 +1,127 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#styl {
+	background:#505050;
+	color:black;
+	font-size:200%;
+}
+#bg-menu {
+	background-color:#000000;
+	color:white;
+	position:fixed;
+   top: 7.5%;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index:-1;
+	font-size:60%;
+}
+#content {
+	background-color:#C0C050;
+	color:white;
+	position: relative;
+   top: 12.5%;
+   //right:25%;
+   //bottom: 0;
+   left: 0;
+   right: 0;
+   z-index:-1;
+	font-size:40%;
+	//overflow-x:scroll;
+	border:solid;
+}
+#links {
+	background-color:#C0C0C0;
+	color:white;
+	position: fixed;
+   top: 75%;
+   bottom: 5%;
+   left: 0;
+   right:25%;
+   z-index:-1;
+	font-size:40%;
+}
+#bg-bottom {
+	background-color:#505050;
+	color:black;
+	//position:absolute;
+	//top:2%;
+   //top: 95%;
+   //bottom:0;
+   //left: 0;
+   //right: 0;
+   z-index:-1;
+	font-size:60%;
+	visibility:hidden;
+	//opacity:0;
+}
+#bg-right {
+	background-color:#C0C0C0;
+	color:black;
+	position: fixed;
+   top: 12.5%;
+   bottom:-95%;
+   left: 75%;
+   right: 0;
+   z-index:-1;
+	font-size:40%;
+}
+
+
+/*.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+*/
+
+
+#link:hover #bg-bottom {
+  //border: 1px solid #ccc;
+  display: block;
+  /*font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+*/
+visibility: visible;
+opacity: 1;
+
+
+}
+
+
+#Weather,#Scam,#Places,#Restaurant,#Hotel,#Transport,#Customs
+{
+
+ width:10%;
+    height:20%;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+    
+    }
+    
+    
+    
+    
+    .box-shadow {
+    -webkit-box-shadow: -9px 9px 4px 2px #C2C2C2;
+    -moz-box-shadow: -9px 9px 4px 2px #C2C2C2;
+    box-shadow: -9px 9px 4px 2px #C2C2C2;
+
+    background-color: #F5F5F5;
+    width: 180px;
+    height: 220px;
+    border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
+float:left;
+overflow-y:auto;
+overflow-x:auto;
+
+
+
+
+
+)

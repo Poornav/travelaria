@@ -1,0 +1,151 @@
+#styl {
+	background:#505050;
+	color:#FFFFFF;
+	font-size:200%;
+	padding:0 5% 0 0;
+}
+body p
+{
+	//font-size:150%;
+	padding:0 0 0 0;
+	//text-indent:2em;
+	//position:relative;
+	//top:-2%;
+	margin-top:-1%;
+	font-color:white;
+	
+}
+#header
+{
+	text-indent:.5em;
+	//top-margin:-2%;
+	font-family:cursive,"Times New Roman",sans-serif,verdana;
+	font-size:150%;
+	//position:fixed;
+	//top:-4%;
+}
+#navigation {
+	background-color:#000000;
+	color:white;
+	position: fixed;
+   top: 7.5%;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index:-1;
+	font-size:60%;
+	font-family:myFirstFont,fantasy,courier,"Times New Roman",sans-serif,veradana;
+}
+
+
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	//display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	//border-right: 1px solid#fff;
+	border-radius:4px
+}
+
+#navigation li a:hover { background:#1E90FF; }
+
+#navigation ul li:hover ul
+{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+#content {
+	background-color:#C0C0C0;
+	color:black;
+	position:fixed;
+   	top:16.5%;
+   	right:25%;
+   bottom:31.5%;
+   left: 0;
+   //right: 0;
+   z-index:-1;
+	font-size:60%;
+	//border:solid;
+	padding:3% 0 0 0;
+	margin-top:0;
+}
+#bg-bottom {
+	background-color:#505050;
+	color:black;
+	position: fixed;
+   top: 95%;
+   bottom:0;
+   left: 0;
+   right: 0;
+   z-index:-1;
+	font-size:60%;
+	
+}
+#bg-right {
+	background-color:#A0A0A0;
+	color:black;
+	position: fixed;
+   top: 16.5%;
+   bottom:-95%;
+   left:75%;
+   right: 0;
+   z-index:-1;
+	font-size:70%;
+	overflow-y: scroll;
+overflow-x: hidden;
+	//border:solid;
+	text-indent:2em;
+	
+}
+#bg-banner {
+	background-color:#C0C0C0;
+	color:white;
+	position:fixed;
+   top: 68.5%;
+   bottom:5%;
+   left: 0;
+   right: 25%;
+   z-index:-1;
+	font-size:40%;
+	overflow:hidden;
+}
+.select_style
+{
+	overflow:hidden;
+}
+
+.select_style select
+{
+	-webkit-appearance: none;
+	appearance:none;
+	color:white;
+	background:none;
+	background:transparent;
+	border:none;
+	outline:none;
+}
+
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
